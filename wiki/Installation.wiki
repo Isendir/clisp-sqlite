@@ -1,0 +1,19 @@
+#summary How to install clisp-sqlite
+
+=Summary=
+
+`clisp-sqlite` is only available (as the name suggests) for [http://clisp.cons.org clisp], a common lisp environment running on many common platforms. You can install it using [http://www.cliki.net/asdf-install asdf-install], if you have [http://www.cliki.net/asdf asdf] already installed; if not, you may find it easier to simply download and `load` the clisp-sqlite source code.
+
+=Prerequisites=
+  # A recent version of [http://clisp.cons.org clisp]
+  # A copy of [http://sqlite.org SQLite]
+  # Optional: [http://cliki.net/asdf ASDF], if you want to install using [http://cliki.net/asdf-install]
+
+=Installing using `asdf-install`=
+{{{
+(asdf-install:install :clisp-sqlite)
+}}}
+
+=Using the source directly=
+  # Download [http://clisp-sqlite.googlecode.com/files/clisp-sqlite.lisp clisp-sqlite.lisp] directly into your project
+  # Load it and go!
