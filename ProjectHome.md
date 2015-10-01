@@ -1,0 +1,1 @@
+clisp-sqlite is a simple interface to the sqlite library using the clisp FFI. It offers a raw interface directly to the C functions in the package SQLITE.RAW, as well as a more civilized and lispy interface in SQLITE.
